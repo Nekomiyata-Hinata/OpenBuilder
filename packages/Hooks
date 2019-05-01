@@ -1,0 +1,6 @@
+Hooks Refences
+
+gotPosition([x,y,z])
+chatMessage([message,sender]);
+beforeSendText(text)
+showhelp(args)

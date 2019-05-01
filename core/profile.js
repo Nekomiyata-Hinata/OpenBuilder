@@ -1,0 +1,36 @@
+const en_US = {
+	connected:" connected!",
+	client_connected:"OpenBuilder connected!",
+	load_script:"Loading Packages...",
+	ready:"Ready!",
+	disconnect:"OpenBuilder disconnected!",
+	stopped:"Stopped",
+	help:"For more helps , type \"help -l\".",
+	wrote:"Data commited!",
+	inputerror1:"Input error.You can type \"",
+	inputerror2:" help\" to get help",
+	timeneed:"Time need: ",
+	wait:"Please wait patiently!",
+	posget:"Position get: ",
+	online:"Online players: ",
+	found:"Feature found: ",
+	generated:"Structure has been generated!",
+	notfound:"Feature not found!",
+	script:" loaded",
+	loaded_script:"Packages loaded!",
+	helps:{
+		"help":"help <commandName:String>  --Show help of command.\n --list: All command\"s descriptions.",
+		"let":"let <variable:String> <value:String>  --Set the value of the variable.",
+		"round":"round -f <facing:<x:y:z>> -r <radius:Int> -h <height:Int>  --Create round or cylinder.",
+		"circle":"circle -f <facing:<x:y:z>> -r <radius:Int> -h <height:Int>  --Create cirlce or cylinder.",
+		"sphere":"sphere -s <shape:<solid:hollow>> -r <radius:Int>  --Create sphere.",
+		"ellipse":"ellipse -f <facing:<x:y:z>> -l <length:Int> -w <width:Int>  --Create ellipse.",
+		"ellipsoid":"ellipsoid -l <length:Int> -w <width:Int> -h <height:Int>  --Create ellipsoid.",
+		"torus":"torus -f <facing:<x:y:z>> -w <width:Int> -r <radius:Int> -a <accuracy:Int>  --Create torus.",
+		"cone":"cone -f <facing<x:y:z>> -r <radius:Int> -h <height:Int> -a <accuracy:Int>  --Create cone.",
+		"forestgen":"forestgen -r <radius:Int> -c <density:Int> -s <shape:oak/birch/spruce/jungle>  --Create forest.",
+		"pumpkins":"pumpkin -r <radius:int>  --Generate pumpkin patches that even contain leaves",
+		"paint":"paint -z <path:String>"
+	}
+};
+module.exports = en_US;
